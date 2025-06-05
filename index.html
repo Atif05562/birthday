@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Ayeshu 💖</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle, #ff4e50, #f9d423);
+            font-family: 'Segoe UI', sans-serif;
+            color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 3em;
+            margin-top: 50px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .candle {
+            margin-top: 40px;
+            width: 30px;
+            height: 100px;
+            background: white;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            border-radius: 5px;
+            animation: float 3s ease-in-out infinite;
+        }
+        .flame {
+            width: 20px;
+            height: 30px;
+            background: gold;
+            border-radius: 50%;
+            position: absolute;
+            top: -35px;
+            left: 5px;
+            box-shadow: 0 0 20px yellow;
+            animation: flicker 0.5s infinite alternate;
+        }
+        @keyframes flicker {
+            from { transform: scale(1); opacity: 1; }
+            to { transform: scale(1.1); opacity: 0.8; }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            font-size: 1.2em;
+            animation: fadeIn 4s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happiest Birthday My Princess Ayeshu 💖</h1>
+    <p>May your life be filled with love, laughter, and joy 🎂🎉</p>
+    <div class="candle">
+        <div class="flame"></div>
+    </div>
+    <footer>With love — Atif ❤️</footer>
+</body>
+</html>
